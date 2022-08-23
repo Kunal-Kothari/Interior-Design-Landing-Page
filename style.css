@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(assets/interior\ design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+
+/* Navbar section */
+.logo {
+    margin: 20px;
+    width: 250px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+.list-items ul {
+    display: flex;
+    list-style: none;
+    border-bottom: 3px solid #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+    flex: 1;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+
+}
+
+.list-item {
+    margin-right: 100px;
+}
+
+/* body section */
+.body {
+    height: 80vh;
+    display: flex;
+}
+
+.body-left h1 {
+    font-size: 55px;
+    font-family: Poppins, sans-serif;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.body-left button {
+    background-color: transparent;
+    border: 2.8px solid #FFFFFF;
+    color: inherit;
+    border-radius: 40px;
+    padding: 15px 40px;
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: x-large;
+}
+
+.idea {
+    background-color: #e6ecf03c;
+    width: 232px;
+    padding: 5px 20px;
+    height: 125px;
+    margin-left: 150px;
+    margin-top: 300px;
+    font-family: Poppins, sans-serif;
+}
+
+.idea img {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.puzzle {
+    background-color: #e6ecf03c;
+    width: 232px;
+    padding: 5px 20px;
+    height: 125px;
+    position: absolute;
+    top: 200px;
+    right: 158px;
+    font-family: Poppins, sans-serif;
+}
+
+.puzzle img {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.line {
+    position: relative;
+    height: 60px;
+    width: 1px;
+    background-color: #FFFFFF;
+    transform: rotate(-90deg);
+    margin-left: 281px;
+    margin-top: -50px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    margin-left: 310px;
+    margin-top: -40px
+}
+
+.line-1 {
+    height: 60px;
+    width: 1px;
+    background-color: #FFFFFF;
+    margin-top: 27px;
+    margin-left: 170px;
+}
+
+.circle-1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    margin-left: 160px;
+}
+
+
+/* --------------------------------- */
+
+@media screen and (max-width: 992px) {
+
+    .body-left h1  {
+        font-size:x-large;
+        margin-top:250px;
+    }
+
+    .body-left button{
+        font-size: medium;
+    }
+}
